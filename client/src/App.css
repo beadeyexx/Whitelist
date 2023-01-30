@@ -1,0 +1,116 @@
+.main {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, sans-serif;
+}
+
+.bg {
+  background-image: url('./image/1.png');
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.divButton{
+  width: 100%;
+  display: flex;  
+  justify-content: center;  
+  align-items: center;  
+  font-weight: bold;
+}
+
+.col {
+  background-color: #ffffff;
+  border-radius: 50px;
+  padding: 40px 40px 40px 40px;
+  align-items: center;
+}
+
+.textbox{
+  width: 60%;
+  font-size: 1rem;
+  border-radius: 10px;
+  padding: 5px;
+  border-color: #ffffff;
+}
+
+
+.footer {
+  display: flex;
+  padding: 1rem 0;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.image {
+  width: 70%;
+  height: 50%;
+  margin-left: 20%;
+}
+
+.title {
+  font-size: 2rem;
+  margin: 2rem 0;
+}
+
+.inputbox{
+  line-height: 1;
+  margin: 2rem 0;
+  font-size: 1rem;
+  text-align: center;
+
+}
+
+.description {
+  line-height: 1;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.numWhitelist{
+  line-height: 1;
+  font-size: 1rem;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.message{
+  font-size: 12px;
+  align-items: center;
+  color: red;
+  text-align: center;
+}
+
+.button {
+  border-radius: 4px;
+  background-color: #ff1b6b;
+  border: none;
+  color: black;
+  font-size: 15px;
+  padding: 20px;
+  width: 200px;
+  cursor: pointer;
+  margin-bottom: 2%;
+  align-items: center;
+  border-radius: 50px;
+  font-weight: bold;
+  
+}
+
+.button:hover {
+  background-color: #45caff;
+  transition: 0.2s;
+}
+@media (max-width: 1000px) {
+  .main {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
